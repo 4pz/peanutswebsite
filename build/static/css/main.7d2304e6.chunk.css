@@ -1,0 +1,2 @@
+body{margin:0}.container,.half{display:-webkit-flex;display:flex}.half{-webkit-flex:1 1;flex:1 1;-webkit-flex-direction:column;flex-direction:column}#encodedvalue,#formvalue{width:100%;padding:12px 20px;margin:8px 0;border:1px solid #ccc;border-radius:4px;box-sizing:border-box;height:20rem;resize:none}#formsubmit{background-color:#4caf50;color:#fff;padding:14px 20px;margin:8px 0;border:none;border-radius:4px;cursor:pointer;font-size:20px}#formsubmit:hover{background-color:#45a049}
+/*# sourceMappingURL=main.7d2304e6.chunk.css.map */
