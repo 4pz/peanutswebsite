@@ -4,40 +4,46 @@ body {
 
 .container {
     display: flex;
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    overflow: auto;
-    background-image: url("img/PeanutsBackground.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+}
+
+.half {
+    display: flex;
+    flex: 1;
     flex-direction: column;
 }
 
-.arrow {
-    margin-top: 40px;
+#formvalue {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
     box-sizing: border-box;
-    height: 5vw;
-    width: 5vw;
-    border-style: solid;
-    border-color: white;
-    border-width: 0px 5px 5px 0px;
-    transform: rotate(45deg);
-    transition: border-width 150ms ease-in-out;
+    height: 20rem;
+    resize: none;
 }
 
-.arrow:hover {
-    border-bottom-width: 8px;
-    border-right-width: 8px;
+#encodedvalue {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 20rem;
+    resize: none;
 }
 
-.navtext {
-    font-family: Arial, sans-serif;
-    font-size: 150px;
-    color: whitesmoke;
+#formsubmit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#formsubmit:hover {
+    background-color: #45a049;
 }
