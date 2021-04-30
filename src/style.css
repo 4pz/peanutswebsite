@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+    background-image: url("img/PeanutsBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.arrow {
+    margin-top: 40px;
+    box-sizing: border-box;
+    height: 5vw;
+    width: 5vw;
+    border-style: solid;
+    border-color: white;
+    border-width: 0px 5px 5px 0px;
+    transform: rotate(45deg);
+    transition: border-width 150ms ease-in-out;
+}
+
+.arrow:hover {
+    border-bottom-width: 8px;
+    border-right-width: 8px;
+}
+
+.navtext {
+    font-family: Arial, sans-serif;
+    font-size: 150px;
+    color: whitesmoke;
+}
