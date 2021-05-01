@@ -34,6 +34,18 @@ function Header() {
                 </textarea>
                 <input id="formsubmit" type="submit" value="Clear" onClick={clear}></input>
             </div>
+            <div className="half">
+                <textarea id="formvalue" rows = "20" cols = "136" name = "value" >
+
+                </textarea>
+                <input id="formsubmit" type="submit" value="Encode" onClick={encode}></input>
+            </div>
+            <div className="half">
+                <textarea id="encodedvalue" rows = "20" cols = "136" name = "value" >
+
+                </textarea>
+                <input id="formsubmit" type="submit" value="Clear" onClick={clear}></input>
+            </div>
         </div>
     )
 }
