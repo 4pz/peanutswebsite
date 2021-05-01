@@ -1,9 +1,16 @@
-body {
+.body {
     margin: 0;
 }
 
 .container {
     display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sec {
+    display: flex;
+    flex-direction: row;
 }
 
 .half {
@@ -24,6 +31,28 @@ body {
 }
 
 #encodedvalue {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 20rem;
+    resize: none;
+}
+
+#formvalue1 {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 20rem;
+    resize: none;
+}
+
+#decodedvalue {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
